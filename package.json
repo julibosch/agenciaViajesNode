@@ -4,7 +4,8 @@
   "description": "Agencia de viajes con NodeJS y Express",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "type": "module",
   "author": "Julian Bosch",
