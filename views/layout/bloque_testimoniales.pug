@@ -1,0 +1,12 @@
+blockquote.text-center #{mensaje}
+        .row.testimoniales.my-3
+            each testimonio in testimoniales 
+                .col-md-6.col-lg-4.mb-4 
+                    .card 
+                        .card-body 
+                            blockquote.blockquote 
+                            p.mb-0
+                                em 
+                                    | #{testimonio.mensaje}  
+                            footer.blockquote-footer 
+                                | #{testimonio.nombre}
